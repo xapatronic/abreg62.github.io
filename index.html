@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../Styles/index.css" />
+    <link rel="stylesheet" href="../Styles/style.css" />
+    <link rel="stylesheet" href="../Styles/auth.css" />
+    <link rel="icon" type="image/png" href="../images/dashicons.png" sizes="16x16"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Путешествия по миру</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="headH">Добро пожаловать в мир путешествий!</h1>
+        <nav class="navbar">
+          <ul>
+            <li><a  href="countries.html">Страны</a></li>
+            <li><a  href="rule.html">Правила путешествий</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="card">
+            <h2>Исследуйте новые горизонты</h2>
+            <p>
+              Присоединяйтесь к нам в захватывающем путешествии по самым
+              красивым местам мира.
+            </p>
+          </div>
+        </section>
+        <!--Авторизация-->
+        <div class="auth-container">
+          <h2 style="font-weight: 600">Авторизация</h2>
+          <form class="auth-form">
+            <div class="form-group">
+              <input
+                type="text"
+                id="fullname"
+                placeholder="Введите ваше ФИО"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="tel"
+                id="phone"
+                placeholder="Введите номер телефона"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                id="password"
+                placeholder="Введите пароль"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                id="password"
+                placeholder="Повторите пароль"
+                required
+              />
+            </div>
+            <button type="submit" class="auth-button">
+              Зарегистрироваться
+            </button>
+          </form>
+        </div>
+      </main>
+      <footer class="footer">
+        <p>&copy; 2024 Путешествия по миру</p>
+      </footer>
+    </div>
+  </body>
+</html>
